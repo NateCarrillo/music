@@ -1,5 +1,5 @@
 /*  
 Author: Nathanael Carrillo
-File Name: styles.css
+File Name: script.js
 Date: 03/23/2021
 */
