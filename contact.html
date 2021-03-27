@@ -22,13 +22,27 @@ Date: 03/12/2021
 </head>
 <body>
 
+<!-- Mobile Nav -->  
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="instructors.html">Instructors</a>
+            <a href="rentals.html">Rentals</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+
     <!--Use the header area for the websites name or-->
     <header>
         <h1><span class="tab-desk">&#9836;</span> Strike a Chord <span class="tab-desk">&#9836;</span></h1>
     </header>
 
     <!--Use the nav area to add hyperlinks to other pages within the website-->
-    <nav>
+    <nav class="tab-desk">
         <ul>
          <li> <a href="index.html">Home</a></li>
          <li> <a href="lessons.html">Lessons</a></li>
@@ -62,10 +76,10 @@ Date: 03/12/2021
     <fieldset>
         <legend>Musical Interest</legend>
         <p>I am interested in:</p>
-        <label for="guitar"><input type="checkbox" name="interest" id="guitar" value="Guitar Lessons"> Guitar Lessons</label>
-        <label for="piano"><input type="checkbox" name="interest" id="piano" value="Piano Lessons"> Piano Lessons </label>
-        <label for="violin"><input type="checkbox" name="interest" id="violin" value="Violin Lessons"> Violin Lessons</label>
-        <label for="rent"><input type="checkbox" name="interest"  id="rent" value="Rental Equipment"> Rental Equipment</label>
+        <label for="guitarles"><input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">Guitar Lessons</label>
+        <label for="piano"><input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">Piano Lessons</label>
+        <label for="violin"><input type="checkbox" name="interest" id="violinles" value="Violin Lessons">Violin Lessons</label>
+        <label for="rent"><input type="checkbox" name="interest"  id="rent" value="Rental Equipment">Rental Equipment</label>
     </fieldset>
     <input type="submit" id="submit" value="Submit"  class="btn">
 
@@ -80,5 +94,7 @@ Date: 03/12/2021
         <p><a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
     </footer>
     
+<script src="scripts/script.js"></script>
+
 </body>  
 </html>
